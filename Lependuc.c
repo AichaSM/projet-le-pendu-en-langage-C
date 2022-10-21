@@ -261,7 +261,7 @@ void main(void)
             while (getchar() != '\n');//pour prendre une seule lettre 
             if(isalpha(lettre) != 0){//si le joueur ne propose pas une lettre
                 lettre = tolower(lettre);//pour mettre la lettre en minisicule meme quand le joueur la rentre en maj 
-                char tabLettre[34];//tab des lettres tentées: le max du tab est à 34=(tentatives+36 le max d'unmot)
+                char tabLettre[26];//tab des lettres tentées: le max du tab est à 26 le max d'unmot)
                 int essaye = 0;// supposant que la lettre n'est pas trouvé dans tab tablettre donc essaye=false(0)
                 for (int b = 0; b < tL; b++)
                 {
